@@ -1,0 +1,170 @@
+ .card {
+    top: 2rem;
+      background: linear-gradient(to bottom, #1e2a4a, #0d1124);
+      width: 430px;
+      height: 550px;
+      border-radius: 30px;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      position: relative;
+       box-shadow: #000 0px 0px 75px 30px;
+    }
+
+    .avatar {
+      width: 170px;
+      height: 170px;
+      background: #ffc107;
+      border-radius: 20px;
+     margin-top: -7rem;
+     margin-left: 7rem;
+    }
+
+    .avatar img {
+      box-shadow: #000 0px 0px 75px 30px;
+      width: 100%;
+     
+    }
+
+    h1 {
+      margin-top: 35px;
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .handle {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .info {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .socials a {
+      flex: 1;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #0f172a;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .footer-icons img {
+      width: 30px;
+    }
+
+
+    .img1 {
+        border-radius: 20px;
+    }
+
+.cards-wrapper {
+  padding-top: 60px;
+  display: flex; 
+  flex-direction: column; 
+  gap: 15px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+
+
+.info-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  padding: 15px 18px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  height: auto; 
+  min-height: 65px;
+  box-sizing: border-box;
+}
+
+
+.email { background: linear-gradient(135deg, #1e3c72, #2a5298); min-height: 65px; }
+.github { background: linear-gradient(135deg, #1e3c72, #2a5298); min-height: 65px; }
+
+.icon-text {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon-text i {
+  font-size: 20px;
+}
+
+.icon-text p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.icon-text span {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+
+  
+.email {
+  cursor: pointer;
+  background: linear-gradient(135deg, #626f86, #2a5298);
+  width: 415px;
+  height: 65px;
+}
+
+
+
+.github {
+  cursor: pointer;
+  background: #1c1c1e;
+  height: 65px;
+  width: 415px;
+}
+
+
+
+    
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+
+
+.gmail {
+  border-radius: 10px;
+  width: 60px;
+  height: 50px;
+}
+.x {
+  border-radius: 10px;
+  width: 55px;
+  height: 50px;
+}

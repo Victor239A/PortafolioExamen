@@ -1,0 +1,58 @@
+ .card {
+    top: 2rem;
+      background: linear-gradient(to bottom, #6274a3, #0d1124);
+      width: 430px;
+      height: 575px;
+      border-radius: 30px;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      position: relative;
+       box-shadow: #000 0px 0px 75px 30px;
+    }
+
+
+    .avatar {
+      width: 170px;
+      height: 170px;
+      background: #ffc107;
+      border-radius: 20px;
+     margin-top: -7rem;
+     margin-left: 7rem;
+     
+    }
+
+    .avatar img {
+        border-radius: 20px;
+        box-shadow: #000 0px 0px 75px 30px;
+        width: 100%;
+
+    }
+
+    h1 {
+      margin-top: 35px;
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .handle {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 10px;
+      padding-bottom: 50px;
+      
+    }
+
+    .info {
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+
+    .stack {
+        border-radius: 20%;
+        width: 125px;
+        padding: 10px;
+         
+    }
