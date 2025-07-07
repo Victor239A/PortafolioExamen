@@ -8,7 +8,7 @@
       color: white;
       text-align: center;
       position: relative;
-      box-shadow: #000 0px 0px 75px 30px;
+     
     }
 
     .avatar {
@@ -22,7 +22,7 @@
     }
 
     .avatar img {
-    box-shadow: #000 0px 0px 75px 30px;
+   
       width: 100%;
        
     }
@@ -139,7 +139,7 @@
             display: block;
         }
         
-        /* Línea negra para la pestaña activa */
+       
         .tab.active::after {
             content: '';
             position: absolute;
