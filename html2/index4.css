@@ -99,8 +99,11 @@ header, footer {
   font-size: 30px;
 }
 
-/* Ajustes para pantallas pequeñas */
 @media (max-width: 480px) {
+  .projects-container {
+    grid-template-columns: 1fr; 
+  }
+
   .project-image-container {
     height: 150px;
   }
